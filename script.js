@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelector('button').addEventListener(() => {
+    document.querySelector('button').addEventListener('click', () => {
         postMessage('hehehe', '*');
     });
 });
