@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    document.getElementsByTagName('button').addEventListener(() => {
+    document.querySelector('button').addEventListener(() => {
         postMessage('hehehe', '*');
     });
 });
