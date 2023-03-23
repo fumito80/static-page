@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('button').addEventListener('click', () => {
-        postMessage({ text: 'hehehe' }, '*');
+        postMessage({ text: 'hehehe', number: 777 }, '*');
     });
 });
 
