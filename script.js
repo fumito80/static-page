@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('button').addEventListener('click', () => {
-        postMessage({ text: 'hehehe', number: 777 }, '*');
+        postMessage({ text: 'hehehe', number: 777 }, 'https://fumito80.github.io');
     });
 });
 
